@@ -5,27 +5,41 @@
     <meta name="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header></header>
-    <main>
-        <h1>
-            Eleva tu negocio digital a otro nivel
-            <strong class="titulo-destaque">con un front-end de calidad! 
-            </strong></h1> 
-            <p><strong>¡Hola!</strong> Soy Marilu Fiorela, analista de datos,
-                 especialista en visualización de datos 
-                 y desarrollo front-end. Ayudo a pequeños negocios a optimizar sus resultados de finanzas.
-                ¿Hablamos?
-    
-            </p>
-            <a href="mailto:921026163">Contáctame</a>
-            <a href="https://instragram.com">Instagram</a>
-            <a href="https://github.com">GitHub</a>
-            <img src="Image.png" alt="Foto de Marilu Fiorela">
+    <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link" href="./Index.html">Home</a>
+            <a class="header__menu__link" href="./about.html">Sobre mí</a>
+        </nav>
+    </header>
+    <main class="presentación">
+        <section class="presentación__contenido">
+            <h1 class="presentación__contenido__titulo">
+                Eleva tu negocio digital a otro nivel
+                <strong class="titulo-destaque">con un front-end de calidad!
+                </strong></h1> 
+                <p class="presentación__contenido__texto">
+                    <strong>¡Hola!</strong> Soy Marilu Fiorela, analista de datos,
+                    especialista en visualización de datos y desarrollo front-end.
+                    Ayudo a pequeños negocios a optimizar sus resultados de finanzas.
+                    ¿Hablamos?
+                    
+                </p>
+                <div class="presentación__enlaces">
+                    <h2 class="presentación__enlaces__subtitulo">Visita a nuestras redes sociales:</h2>
+                    <a class="presentación__enlaces__link" href="https://instragram.com/">
+                        <img src="./assets/instagram.png">Instagram</a>
+                    <a class="presentación__enlaces__link" href="https://github.com/">
+                        <img src="./assets/github.png">GitHub</a>
+                </div>
+        </section>
+            <img class= "presentación__imagen" src="Image.png" alt="Foto de Marilu Fiorela">
     
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <p> Desarrollado por Marilu Fiorela. Todos los derechos reservados.</p> 
+    </footer>
 </body>
 </html>
