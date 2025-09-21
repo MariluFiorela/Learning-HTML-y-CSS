@@ -26,6 +26,9 @@ body{
     background-color: var(--color-cuarternario);
     color: var(--color-secundario);
     box-sizing: border-box;
+    font-size: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     
 }
 
@@ -64,6 +67,7 @@ body{
     padding: 5% 15%;
     justify-content: space-between;
     gap: 82px;
+    min-height: 100vh;
 
 }
 
@@ -108,7 +112,7 @@ body{
     border-radius: 8px;
     font-family: var(--font-principal);
     font-size: 1.5rem;
-    font-weight: 600px;
+    font-weight: 600;
     color: var(--color-secundario);
     text-decoration: none;
     border: 2px solid var(--color-primario);
@@ -124,6 +128,8 @@ body{
 
 .presentación__imagen{
     width: 50%;
+    height: auto;
+    
 
 }
 .footer{
@@ -132,7 +138,7 @@ body{
     padding: 24px;
     font-family: var(--font-principal);
     font-size: 1.5rem;
-    font-weight: 400px;
+    font-weight: 400;
     color: var(--color-cuarternario);   
 }
 
